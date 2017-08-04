@@ -1,0 +1,26 @@
+h1 {
+  padding: 0.8em;
+  background: forestgreen;
+  color: white;
+}
+h3 {
+  margin: 0 0 1.5em;
+  padding: 0.4em;
+  border-left: 10px solid darkgreen;
+  border-top: 1px solid darkgreen;
+  margin-top: 2.0em;
+  margin-bottom: 0.5em;
+}
+
+input[type=submit] {
+  font-size: 1.0em;
+  background: forestgreen; 
+  color: white;
+  border: none;
+}
+input[type=submit]:hover {
+  font-size: 1.0em;
+  background: darkgreen;
+  color: white;
+  border: none;
+}

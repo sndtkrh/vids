@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>VIDS {{name}}</title>
+    <link type="text/css" rel="stylesheet" href="static/draw.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script>
+      var vids_user_name = "{{ name }}";
+      var vids_room_name = "{{ room }}";
+      var vids_host = "{{ host }}";
+      var vids_port = "{{ port }}";
+    </script>
+    <script type="text/javascript" src="static/draw.js"></script>
+  </head>
+  <body>
+    <div id="canvasContainer">
+      <canvas id="canvas">
+      Your browser does not support HTML5 Canvas.
+      </canvas>
+    </div>
+    <div id="config">
+      <form>
+        <p><input type="button" id="clearButton" value="Clear"></p>
+        <p>
+        <label><input type="radio" name="colorButton" value="Black" checked="checked"> Black </label>
+        <label><input type="radio" name="colorButton" value="White" > White </label>
+        <label><input type="radio" name="colorButton" value="Red" > Red </label>
+        <label><input type="radio" name="colorButton" value="Blue" > Blue </label>
+        <label><input type="radio" name="colorButton" value="Green" > Green </label>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
+
